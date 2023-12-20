@@ -179,28 +179,28 @@ function sayHello() : string {
 
 // console.log(sayHello())
 
-function sum(start: number, end: number) : boolean {
-  if(start < end ) return true
+// function sum(start: number, end: number) : boolean {
+//   if(start < end ) return true
 
-  return false
-}
+//   return false
+// }
 
 // console.log(sum(2, 8))
 // console.log(sum("2", "8"))
 
 // function overloading
-function add(start: number, end: number) : number;
-function add(start: string, end: string) : string;
+// function add(start: number, end: number) : number;
+// function add(start: string, end: string) : string;
 
-function add(start: any, end: any) : any {
-  return start + end
-}
+// function add(start: any, end: any) : any {
+//   return start + end
+// }
 
 // console.log(add(2, 8))
 // console.log(add("2", "8"))
 
-function checkUser() : void {
-  console.log("is vip")
-}
+// function checkUser() : void {
+//   console.log("is vip")
+// }
 
-console.log(checkUser())
+// console.log(checkUser())
